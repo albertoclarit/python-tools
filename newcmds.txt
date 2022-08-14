@@ -1,4 +1,4 @@
-pipenv --python 3.9 --site-packages
+pipenv --python 3.10.5 --site-packages
 pipenv install requests
 pipenv install numpy
 pipenv install matplotlib
@@ -10,3 +10,8 @@ pipenv install Django
 
 pipenv lock -r
 
+
+brew install pyenv
+pyenv install 3.10.5
+
+pyenv local  3.10.5
