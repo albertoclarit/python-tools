@@ -1,0 +1,12 @@
+pipenv --python 3.9 --site-packages
+pipenv install requests
+pipenv install numpy
+pipenv install matplotlib
+pipenv install seaborn
+pipenv install urllib3
+pipenv install pytest
+pipenv install bumpversion
+pipenv install Django
+
+pipenv lock -r
+

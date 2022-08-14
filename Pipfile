@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+urllib3 = "*"
+pytest = "*"
+bumpversion = "*"
+django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

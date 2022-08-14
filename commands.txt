@@ -1,0 +1,29 @@
+pip install pipenv
+pipenv install requests
+pipenv shell
+
+pipenv install -r requirements.txt // for old requirements.txt
+
+
+
+
+pipenv lock -r
+
+pipenv install pytest --dev
+pipenv uninstall package
+
+pipenv --python 3.6
+
+-- create a new environment from Pipfile
+pipenv --rm
+
+pipenv install
+
+pipenv check
+pipenv graph
+
+
+pipenv lock
+pipenv install --ignore-pipfile
+
+pipenv update
